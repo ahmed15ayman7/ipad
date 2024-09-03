@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E83002BF2C87C81A000653C5 /* ChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83002BE2C87C81A000653C5 /* ChooseView.swift */; };
+		E83002C12C87CACC000653C5 /* AccountTypeChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83002C02C87CACC000653C5 /* AccountTypeChoice.swift */; };
+		E83002C32C87CAF2000653C5 /* AccountType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83002C22C87CAF2000653C5 /* AccountType.swift */; };
+		E83002C72C87CC0F000653C5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83002C62C87CC0F000653C5 /* LoginViewModel.swift */; };
 		E890EB732C874A7D00A8F2E3 /* graduation_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E890EB722C874A7D00A8F2E3 /* graduation_projectApp.swift */; };
 		E890EB772C874A7F00A8F2E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E890EB762C874A7F00A8F2E3 /* Assets.xcassets */; };
 		E890EB7A2C874A7F00A8F2E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E890EB792C874A7F00A8F2E3 /* Preview Assets.xcassets */; };
@@ -21,6 +25,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E83002BE2C87C81A000653C5 /* ChooseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseView.swift; sourceTree = "<group>"; };
+		E83002C02C87CACC000653C5 /* AccountTypeChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTypeChoice.swift; sourceTree = "<group>"; };
+		E83002C22C87CAF2000653C5 /* AccountType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountType.swift; sourceTree = "<group>"; };
+		E83002C62C87CC0F000653C5 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		E890EB6F2C874A7D00A8F2E3 /* graduation project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "graduation project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E890EB722C874A7D00A8F2E3 /* graduation_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graduation_projectApp.swift; sourceTree = "<group>"; };
 		E890EB762C874A7F00A8F2E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -46,6 +54,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E83002BD2C87C7B1000653C5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E83002C42C87CBE9000653C5 /* Handler */,
+				E83002BE2C87C81A000653C5 /* ChooseView.swift */,
+				E83002C02C87CACC000653C5 /* AccountTypeChoice.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E83002C42C87CBE9000653C5 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				E83002C62C87CC0F000653C5 /* LoginViewModel.swift */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
 		E890EB662C874A7D00A8F2E3 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +112,7 @@
 		E890EB822C87580200A8F2E3 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				E83002BD2C87C7B1000653C5 /* Login */,
 				E890EB832C87580D00A8F2E3 /* Intro */,
 				E890EB932C87968B00A8F2E3 /* RedButton.swift */,
 			);
@@ -105,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				E890EB862C87583800A8F2E3 /* Slide.swift */,
+				E83002C22C87CAF2000653C5 /* AccountType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -200,13 +228,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				E890EB922C87864C00A8F2E3 /* FinalIntroView.swift in Sources */,
+				E83002BF2C87C81A000653C5 /* ChooseView.swift in Sources */,
 				E890EB8E2C875A0600A8F2E3 /* IntroView+Handler.swift in Sources */,
 				E890EB732C874A7D00A8F2E3 /* graduation_projectApp.swift in Sources */,
+				E83002C12C87CACC000653C5 /* AccountTypeChoice.swift in Sources */,
 				E890EB852C87581D00A8F2E3 /* IntroView.swift in Sources */,
 				E890EB942C87968B00A8F2E3 /* RedButton.swift in Sources */,
 				E890EB872C87583800A8F2E3 /* Slide.swift in Sources */,
+				E83002C72C87CC0F000653C5 /* LoginViewModel.swift in Sources */,
 				E890EB8A2C8758C700A8F2E3 /* SlideView.swift in Sources */,
 				E890EB902C87620800A8F2E3 /* SlidesTracker.swift in Sources */,
+				E83002C32C87CAF2000653C5 /* AccountType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
