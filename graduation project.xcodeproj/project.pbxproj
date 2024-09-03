@@ -11,6 +11,7 @@
 		E890EB752C874A7D00A8F2E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E890EB742C874A7D00A8F2E3 /* ContentView.swift */; };
 		E890EB772C874A7F00A8F2E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E890EB762C874A7F00A8F2E3 /* Assets.xcassets */; };
 		E890EB7A2C874A7F00A8F2E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E890EB792C874A7F00A8F2E3 /* Preview Assets.xcassets */; };
+		E890EB812C8755F600A8F2E3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E890EB802C8755F600A8F2E3 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E890EB742C874A7D00A8F2E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E890EB762C874A7F00A8F2E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E890EB792C874A7F00A8F2E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E890EB802C8755F600A8F2E3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				E890EB742C874A7D00A8F2E3 /* ContentView.swift */,
 				E890EB762C874A7F00A8F2E3 /* Assets.xcassets */,
 				E890EB782C874A7F00A8F2E3 /* Preview Content */,
+				E890EB802C8755F600A8F2E3 /* Launch Screen.storyboard */,
 			);
 			path = "graduation project";
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E890EB812C8755F600A8F2E3 /* Launch Screen.storyboard in Resources */,
 				E890EB7A2C874A7F00A8F2E3 /* Preview Assets.xcassets in Resources */,
 				E890EB772C874A7F00A8F2E3 /* Assets.xcassets in Resources */,
 			);
