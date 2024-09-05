@@ -39,9 +39,9 @@ struct ChooseView: View {
                         .offset(y: 100)
                 }
                 RedButton(action: {}, title: "Login")
-               
+                
             }
-           
+            
         }.background(.backgroundWhite)
     }
 }
