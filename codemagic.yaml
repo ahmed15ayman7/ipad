@@ -1,0 +1,26 @@
+workflows:
+  ios-workflow:
+    name: iOS Workflow
+    max_build_duration: 60
+    environment:
+      xcode: latest
+      cocoapods: default
+    scripts:
+      - name: Install dependencies
+        script: |
+          pod install
+      - name: Build iOS app
+        script: |
+          xcodebuild \
+            -workspace "graduation project.xcworkspace" \
+            -scheme "YourScheme" \
+            -sdk iphoneos \
+            -configuration Release \
+            clean archive \
+            -archivePath $CM_BUILD_DIR/graduation project.xcodeproj
+    artifacts:
+      - $CM_BUILD_DIR/graduation project.xcodeproj
+    publishing:
+      email:
+        recipients:
+          - ahmed15ayman7ahmed2002@gmail.com
