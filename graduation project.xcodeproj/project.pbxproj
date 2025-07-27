@@ -7,12 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E80DA1232CB1656100F2FE60 /* ChildProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DA1222CB1656100F2FE60 /* ChildProfileScreen.swift */; };
+		E80DA1262CB1BA7C00F2FE60 /* QuestTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80DA1252CB1BA7C00F2FE60 /* QuestTabView.swift */; };
+		E80E01172C8CB95800C138E7 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E01162C8CB95800C138E7 /* Badge.swift */; };
+		E80E011A2C8D8A8800C138E7 /* BadgesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E01192C8D8A8800C138E7 /* BadgesView.swift */; };
+		E80E011C2C8D8BF800C138E7 /* BadgeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E011B2C8D8BF800C138E7 /* BadgeCard.swift */; };
+		E828E92D2C9CB3CD0082D1A1 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E828E92C2C9CB3CD0082D1A1 /* CameraView.swift */; };
+		E828E9352C9CD7720082D1A1 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = E828E9342C9CD7720082D1A1 /* Exercise.swift */; };
+		E828E93B2C9CDA990082D1A1 /* QuestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E828E93A2C9CDA990082D1A1 /* QuestViewModel.swift */; };
+		E828E93E2C9CE04C0082D1A1 /* QuestScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E828E93D2C9CE04C0082D1A1 /* QuestScreen.swift */; };
+		E82D80842CAC889100D19E7E /* CreateChildScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82D80832CAC889100D19E7E /* CreateChildScreen.swift */; };
+		E82D80862CAC8A6B00D19E7E /* ChildImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82D80852CAC8A6B00D19E7E /* ChildImage.swift */; };
+		E82D80882CAC96C300D19E7E /* FinishAddChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82D80872CAC96C300D19E7E /* FinishAddChild.swift */; };
+		E82D808A2CAC9CE700D19E7E /* ChildCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82D80892CAC9CE700D19E7E /* ChildCard.swift */; };
 		E83002BF2C87C81A000653C5 /* ChooseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83002BE2C87C81A000653C5 /* ChooseView.swift */; };
 		E83002C12C87CACC000653C5 /* AccountTypeChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83002C02C87CACC000653C5 /* AccountTypeChoice.swift */; };
 		E83002C32C87CAF2000653C5 /* AccountType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83002C22C87CAF2000653C5 /* AccountType.swift */; };
-		E83002C72C87CC0F000653C5 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83002C62C87CC0F000653C5 /* LoginViewModel.swift */; };
+		E83002C72C87CC0F000653C5 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83002C62C87CC0F000653C5 /* AuthViewModel.swift */; };
 		E834B0632C89FC0C0007CCB7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834B0622C89FC0C0007CCB7 /* LoginView.swift */; };
 		E834B0652C89FF8C0007CCB7 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834B0642C89FF8C0007CCB7 /* LoginTextField.swift */; };
+		E834B0702C8A18930007CCB7 /* GlobalTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E834B06F2C8A18930007CCB7 /* GlobalTabBar.swift */; };
+		E83777002C90224F00373528 /* LoginCardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83776FF2C90224F00373528 /* LoginCardsView.swift */; };
+		E83777022C90226200373528 /* LoginCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83777012C90226200373528 /* LoginCard.swift */; };
+		E859730E2CAB1E950042DAFD /* MyChildrenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E859730D2CAB1E950042DAFD /* MyChildrenView.swift */; };
+		E877505C2C9B53A800A75811 /* PlaceholderModifer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E877505B2C9B53A800A75811 /* PlaceholderModifer.swift */; };
+		E88AA2872C9970CF003B3AAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88AA2862C9970CF003B3AAA /* AppDelegate.swift */; };
+		E88AA2892C99716E003B3AAA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E88AA2882C99716E003B3AAA /* GoogleService-Info.plist */; };
+		E88AA28C2C9971FF003B3AAA /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = E88AA28B2C9971FF003B3AAA /* FirebaseAuth */; };
+		E88AA28E2C9974B1003B3AAA /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = E88AA28D2C9974B1003B3AAA /* FirebaseDatabase */; };
+		E88AA2902C9974B1003B3AAA /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = E88AA28F2C9974B1003B3AAA /* FirebaseFirestore */; };
+		E88AA2922C9974B1003B3AAA /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = E88AA2912C9974B1003B3AAA /* FirebaseFirestoreCombine-Community */; };
+		E88AA2942C9974B1003B3AAA /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = E88AA2932C9974B1003B3AAA /* FirebaseStorage */; };
 		E890EB732C874A7D00A8F2E3 /* graduation_projectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E890EB722C874A7D00A8F2E3 /* graduation_projectApp.swift */; };
 		E890EB772C874A7F00A8F2E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E890EB762C874A7F00A8F2E3 /* Assets.xcassets */; };
 		E890EB7A2C874A7F00A8F2E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E890EB792C874A7F00A8F2E3 /* Preview Assets.xcassets */; };
@@ -24,15 +49,59 @@
 		E890EB902C87620800A8F2E3 /* SlidesTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E890EB8F2C87620800A8F2E3 /* SlidesTracker.swift */; };
 		E890EB922C87864C00A8F2E3 /* FinalIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E890EB912C87864B00A8F2E3 /* FinalIntroView.swift */; };
 		E890EB942C87968B00A8F2E3 /* RedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E890EB932C87968B00A8F2E3 /* RedButton.swift */; };
+		E8973F0D2C9DDAA40044B308 /* IntroChallengeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8973F0C2C9DDAA40044B308 /* IntroChallengeScreen.swift */; };
+		E8973F0F2CA065F80044B308 /* NextChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8973F0E2CA065F80044B308 /* NextChallenge.swift */; };
+		E8973F112CA06CD60044B308 /* FinishWeekScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8973F102CA06CD60044B308 /* FinishWeekScreen.swift */; };
+		E8C4523C2C9C43A500748DD2 /* ChallengeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C4523B2C9C43A500748DD2 /* ChallengeScreen.swift */; };
+		E8C9E28B2C9975A3000921D8 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C9E28A2C9975A3000921D8 /* User.swift */; };
+		E8C9E28D2C997B9F000921D8 /* SignupScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C9E28C2C997B9F000921D8 /* SignupScreen.swift */; };
+		E8CBE9E52C8B3310003A9DF4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CBE9E42C8B3310003A9DF4 /* ProfileView.swift */; };
+		E8CBE9E92C8B39A4003A9DF4 /* LevelProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CBE9E82C8B39A4003A9DF4 /* LevelProgressView.swift */; };
+		E8CBE9EB2C8B4CBC003A9DF4 /* TabBarViewTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CBE9EA2C8B4CBC003A9DF4 /* TabBarViewTitle.swift */; };
+		E8CBE9ED2C8B5023003A9DF4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CBE9EC2C8B5023003A9DF4 /* MainView.swift */; };
+		E8CBE9F02C8B54EB003A9DF4 /* ProgressMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CBE9EF2C8B54EB003A9DF4 /* ProgressMainView.swift */; };
+		E8CBE9F22C8B6314003A9DF4 /* CircularProgressVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CBE9F12C8B6314003A9DF4 /* CircularProgressVeiw.swift */; };
+		E8CBE9F42C8B6334003A9DF4 /* ProgressCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CBE9F32C8B6334003A9DF4 /* ProgressCard.swift */; };
+		E8CBE9F72C8B822F003A9DF4 /* StepIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CBE9F62C8B822F003A9DF4 /* StepIndicator.swift */; };
+		E8CBE9F92C8BAA4F003A9DF4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CBE9F82C8BAA4F003A9DF4 /* HomeView.swift */; };
+		E8DCA25A2C9C6939002D4D4E /* QuickPoseCamera in Frameworks */ = {isa = PBXBuildFile; productRef = E8DCA2592C9C6939002D4D4E /* QuickPoseCamera */; };
+		E8DCA25C2C9C6939002D4D4E /* QuickPoseCore in Frameworks */ = {isa = PBXBuildFile; productRef = E8DCA25B2C9C6939002D4D4E /* QuickPoseCore */; };
+		E8DCA2642C9C6A79002D4D4E /* QuickPoseSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = E8DCA2632C9C6A79002D4D4E /* QuickPoseSwiftUI */; };
+		E8DCA2662C9C6A8F002D4D4E /* QuickPoseMP in Frameworks */ = {isa = PBXBuildFile; productRef = E8DCA2652C9C6A8F002D4D4E /* QuickPoseMP */; };
+		E8DCA2692C9C6B6F002D4D4E /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DCA2682C9C6B6F002D4D4E /* CameraManager.swift */; };
+		E8DEC3E82C8E0CF800FF6AC1 /* ProfileBadgeDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DEC3E72C8E0CF800FF6AC1 /* ProfileBadgeDestination.swift */; };
+		E8F2A7AF2C9A059000D7C974 /* RemoveFocusOnTapModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2A7AE2C9A059000D7C974 /* RemoveFocusOnTapModifier.swift */; };
+		E8F2A7B32C9A05C700D7C974 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2A7B22C9A05C700D7C974 /* View+Extension.swift */; };
+		E8F2A7B52C9A06CA00D7C974 /* FieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F2A7B42C9A06CA00D7C974 /* FieldType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E80DA1222CB1656100F2FE60 /* ChildProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildProfileScreen.swift; sourceTree = "<group>"; };
+		E80DA1252CB1BA7C00F2FE60 /* QuestTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestTabView.swift; sourceTree = "<group>"; };
+		E80E01162C8CB95800C138E7 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		E80E01192C8D8A8800C138E7 /* BadgesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesView.swift; sourceTree = "<group>"; };
+		E80E011B2C8D8BF800C138E7 /* BadgeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeCard.swift; sourceTree = "<group>"; };
+		E828E92C2C9CB3CD0082D1A1 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		E828E9342C9CD7720082D1A1 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		E828E93A2C9CDA990082D1A1 /* QuestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestViewModel.swift; sourceTree = "<group>"; };
+		E828E93D2C9CE04C0082D1A1 /* QuestScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestScreen.swift; sourceTree = "<group>"; };
+		E82D80832CAC889100D19E7E /* CreateChildScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateChildScreen.swift; sourceTree = "<group>"; };
+		E82D80852CAC8A6B00D19E7E /* ChildImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildImage.swift; sourceTree = "<group>"; };
+		E82D80872CAC96C300D19E7E /* FinishAddChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishAddChild.swift; sourceTree = "<group>"; };
+		E82D80892CAC9CE700D19E7E /* ChildCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildCard.swift; sourceTree = "<group>"; };
 		E83002BE2C87C81A000653C5 /* ChooseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseView.swift; sourceTree = "<group>"; };
 		E83002C02C87CACC000653C5 /* AccountTypeChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTypeChoice.swift; sourceTree = "<group>"; };
 		E83002C22C87CAF2000653C5 /* AccountType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountType.swift; sourceTree = "<group>"; };
-		E83002C62C87CC0F000653C5 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E83002C62C87CC0F000653C5 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		E834B0622C89FC0C0007CCB7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E834B0642C89FF8C0007CCB7 /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		E834B06F2C8A18930007CCB7 /* GlobalTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalTabBar.swift; sourceTree = "<group>"; };
+		E83776FF2C90224F00373528 /* LoginCardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCardsView.swift; sourceTree = "<group>"; };
+		E83777012C90226200373528 /* LoginCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCard.swift; sourceTree = "<group>"; };
+		E859730D2CAB1E950042DAFD /* MyChildrenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyChildrenView.swift; sourceTree = "<group>"; };
+		E877505B2C9B53A800A75811 /* PlaceholderModifer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderModifer.swift; sourceTree = "<group>"; };
+		E88AA2862C9970CF003B3AAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E88AA2882C99716E003B3AAA /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E890EB6F2C874A7D00A8F2E3 /* graduation project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "graduation project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E890EB722C874A7D00A8F2E3 /* graduation_projectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = graduation_projectApp.swift; sourceTree = "<group>"; };
 		E890EB762C874A7F00A8F2E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,6 +114,26 @@
 		E890EB8F2C87620800A8F2E3 /* SlidesTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidesTracker.swift; sourceTree = "<group>"; };
 		E890EB912C87864B00A8F2E3 /* FinalIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalIntroView.swift; sourceTree = "<group>"; };
 		E890EB932C87968B00A8F2E3 /* RedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedButton.swift; sourceTree = "<group>"; };
+		E8973F0C2C9DDAA40044B308 /* IntroChallengeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroChallengeScreen.swift; sourceTree = "<group>"; };
+		E8973F0E2CA065F80044B308 /* NextChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextChallenge.swift; sourceTree = "<group>"; };
+		E8973F102CA06CD60044B308 /* FinishWeekScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishWeekScreen.swift; sourceTree = "<group>"; };
+		E8C4523B2C9C43A500748DD2 /* ChallengeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeScreen.swift; sourceTree = "<group>"; };
+		E8C9E28A2C9975A3000921D8 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E8C9E28C2C997B9F000921D8 /* SignupScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScreen.swift; sourceTree = "<group>"; };
+		E8CBE9E42C8B3310003A9DF4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		E8CBE9E82C8B39A4003A9DF4 /* LevelProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelProgressView.swift; sourceTree = "<group>"; };
+		E8CBE9EA2C8B4CBC003A9DF4 /* TabBarViewTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewTitle.swift; sourceTree = "<group>"; };
+		E8CBE9EC2C8B5023003A9DF4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E8CBE9EF2C8B54EB003A9DF4 /* ProgressMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressMainView.swift; sourceTree = "<group>"; };
+		E8CBE9F12C8B6314003A9DF4 /* CircularProgressVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressVeiw.swift; sourceTree = "<group>"; };
+		E8CBE9F32C8B6334003A9DF4 /* ProgressCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCard.swift; sourceTree = "<group>"; };
+		E8CBE9F62C8B822F003A9DF4 /* StepIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepIndicator.swift; sourceTree = "<group>"; };
+		E8CBE9F82C8BAA4F003A9DF4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E8DCA2682C9C6B6F002D4D4E /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		E8DEC3E72C8E0CF800FF6AC1 /* ProfileBadgeDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileBadgeDestination.swift; sourceTree = "<group>"; };
+		E8F2A7AE2C9A059000D7C974 /* RemoveFocusOnTapModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveFocusOnTapModifier.swift; sourceTree = "<group>"; };
+		E8F2A7B22C9A05C700D7C974 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		E8F2A7B42C9A06CA00D7C974 /* FieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,12 +141,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E88AA28E2C9974B1003B3AAA /* FirebaseDatabase in Frameworks */,
+				E8DCA25C2C9C6939002D4D4E /* QuickPoseCore in Frameworks */,
+				E88AA2922C9974B1003B3AAA /* FirebaseFirestoreCombine-Community in Frameworks */,
+				E8DCA25A2C9C6939002D4D4E /* QuickPoseCamera in Frameworks */,
+				E88AA28C2C9971FF003B3AAA /* FirebaseAuth in Frameworks */,
+				E88AA2942C9974B1003B3AAA /* FirebaseStorage in Frameworks */,
+				E88AA2902C9974B1003B3AAA /* FirebaseFirestore in Frameworks */,
+				E8DCA2662C9C6A8F002D4D4E /* QuickPoseMP in Frameworks */,
+				E8DCA2642C9C6A79002D4D4E /* QuickPoseSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E811D4C12CA5DC2A00854229 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E828E92F2C9CB41B0082D1A1 /* CameraView */ = {
+			isa = PBXGroup;
+			children = (
+				E828E92C2C9CB3CD0082D1A1 /* CameraView.swift */,
+			);
+			path = CameraView;
+			sourceTree = "<group>";
+		};
+		E828E9362C9CDA520082D1A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E8973F0C2C9DDAA40044B308 /* IntroChallengeScreen.swift */,
+				E8C4523B2C9C43A500748DD2 /* ChallengeScreen.swift */,
+				E8973F0E2CA065F80044B308 /* NextChallenge.swift */,
+				E828E93D2C9CE04C0082D1A1 /* QuestScreen.swift */,
+				E8973F102CA06CD60044B308 /* FinishWeekScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E828E9392C9CDA860082D1A1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E828E93A2C9CDA990082D1A1 /* QuestViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E82D80822CAC887F00D19E7E /* MyChildren */ = {
+			isa = PBXGroup;
+			children = (
+				E82D80832CAC889100D19E7E /* CreateChildScreen.swift */,
+				E82D80872CAC96C300D19E7E /* FinishAddChild.swift */,
+				E80DA1222CB1656100F2FE60 /* ChildProfileScreen.swift */,
+			);
+			path = MyChildren;
+			sourceTree = "<group>";
+		};
 		E83002BD2C87C7B1000653C5 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,7 +213,7 @@
 		E83002C42C87CBE9000653C5 /* Handler */ = {
 			isa = PBXGroup;
 			children = (
-				E83002C62C87CC0F000653C5 /* LoginViewModel.swift */,
+				E83002C62C87CC0F000653C5 /* AuthViewModel.swift */,
 			);
 			path = Handler;
 			sourceTree = "<group>";
@@ -89,6 +232,7 @@
 			children = (
 				E83002BE2C87C81A000653C5 /* ChooseView.swift */,
 				E834B0622C89FC0C0007CCB7 /* LoginView.swift */,
+				E8C9E28C2C997B9F000921D8 /* SignupScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -123,6 +267,7 @@
 		E834B06B2C8A18570007CCB7 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				E811D4C12CA5DC2A00854229 /* ViewModel */,
 				E834B06C2C8A185C0007CCB7 /* View */,
 			);
 			path = Main;
@@ -131,6 +276,8 @@
 		E834B06C2C8A185C0007CCB7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E834B06F2C8A18930007CCB7 /* GlobalTabBar.swift */,
+				E8CBE9E62C8B3991003A9DF4 /* Widgets */,
 				E834B06D2C8A18620007CCB7 /* Screen */,
 			);
 			path = View;
@@ -139,14 +286,30 @@
 		E834B06D2C8A18620007CCB7 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				E82D80822CAC887F00D19E7E /* MyChildren */,
+				E8C4523A2C9C438300748DD2 /* Quest */,
+				E8CBE9E42C8B3310003A9DF4 /* ProfileView.swift */,
+				E8CBE9EC2C8B5023003A9DF4 /* MainView.swift */,
+				E8CBE9EF2C8B54EB003A9DF4 /* ProgressMainView.swift */,
+				E8CBE9F82C8BAA4F003A9DF4 /* HomeView.swift */,
+				E80E01192C8D8A8800C138E7 /* BadgesView.swift */,
+				E859730D2CAB1E950042DAFD /* MyChildrenView.swift */,
 			);
 			path = Screen;
+			sourceTree = "<group>";
+		};
+		E88AA28A2C9971FF003B3AAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E890EB662C874A7D00A8F2E3 = {
 			isa = PBXGroup;
 			children = (
 				E890EB712C874A7D00A8F2E3 /* graduation project */,
+				E88AA28A2C9971FF003B3AAA /* Frameworks */,
 				E890EB702C874A7D00A8F2E3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -162,7 +325,10 @@
 		E890EB712C874A7D00A8F2E3 /* graduation project */ = {
 			isa = PBXGroup;
 			children = (
+				E88AA2882C99716E003B3AAA /* GoogleService-Info.plist */,
+				E88AA2862C9970CF003B3AAA /* AppDelegate.swift */,
 				E890EB882C8758AF00A8F2E3 /* Model */,
+				E8F2A7AC2C9A056800D7C974 /* Utils */,
 				E890EB822C87580200A8F2E3 /* Modules */,
 				E890EB722C874A7D00A8F2E3 /* graduation_projectApp.swift */,
 				E890EB762C874A7F00A8F2E3 /* Assets.xcassets */,
@@ -205,6 +371,12 @@
 			children = (
 				E890EB862C87583800A8F2E3 /* Slide.swift */,
 				E83002C22C87CAF2000653C5 /* AccountType.swift */,
+				E8CBE9EA2C8B4CBC003A9DF4 /* TabBarViewTitle.swift */,
+				E80E01162C8CB95800C138E7 /* Badge.swift */,
+				E8DEC3E72C8E0CF800FF6AC1 /* ProfileBadgeDestination.swift */,
+				E8C9E28A2C9975A3000921D8 /* User.swift */,
+				E8F2A7B42C9A06CA00D7C974 /* FieldType.swift */,
+				E828E9342C9CD7720082D1A1 /* Exercise.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -224,6 +396,68 @@
 				E890EB8D2C875A0600A8F2E3 /* IntroView+Handler.swift */,
 			);
 			path = Handler;
+			sourceTree = "<group>";
+		};
+		E8C4523A2C9C438300748DD2 /* Quest */ = {
+			isa = PBXGroup;
+			children = (
+				E828E9392C9CDA860082D1A1 /* ViewModel */,
+				E828E9362C9CDA520082D1A1 /* Views */,
+			);
+			path = Quest;
+			sourceTree = "<group>";
+		};
+		E8CBE9E62C8B3991003A9DF4 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				E83776FF2C90224F00373528 /* LoginCardsView.swift */,
+				E8CBE9E82C8B39A4003A9DF4 /* LevelProgressView.swift */,
+				E8CBE9F12C8B6314003A9DF4 /* CircularProgressVeiw.swift */,
+				E8CBE9F32C8B6334003A9DF4 /* ProgressCard.swift */,
+				E8CBE9F62C8B822F003A9DF4 /* StepIndicator.swift */,
+				E80E011B2C8D8BF800C138E7 /* BadgeCard.swift */,
+				E83777012C90226200373528 /* LoginCard.swift */,
+				E828E92F2C9CB41B0082D1A1 /* CameraView */,
+				E82D80852CAC8A6B00D19E7E /* ChildImage.swift */,
+				E82D80892CAC9CE700D19E7E /* ChildCard.swift */,
+				E80DA1252CB1BA7C00F2FE60 /* QuestTabView.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		E8DCA2672C9C6B59002D4D4E /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E8DCA2682C9C6B6F002D4D4E /* CameraManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E8F2A7AC2C9A056800D7C974 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E8DCA2672C9C6B59002D4D4E /* Managers */,
+				E8F2A7B12C9A05B900D7C974 /* Extensions */,
+				E8F2A7AD2C9A056E00D7C974 /* ViewModifers */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E8F2A7AD2C9A056E00D7C974 /* ViewModifers */ = {
+			isa = PBXGroup;
+			children = (
+				E8F2A7AE2C9A059000D7C974 /* RemoveFocusOnTapModifier.swift */,
+				E877505B2C9B53A800A75811 /* PlaceholderModifer.swift */,
+			);
+			path = ViewModifers;
+			sourceTree = "<group>";
+		};
+		E8F2A7B12C9A05B900D7C974 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E8F2A7B22C9A05C700D7C974 /* View+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,7 +488,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					E890EB6E2C874A7D00A8F2E3 = {
 						CreatedOnToolsVersion = 15.4;
@@ -270,6 +504,10 @@
 				Base,
 			);
 			mainGroup = E890EB662C874A7D00A8F2E3;
+			packageReferences = (
+				E88AA2842C99701D003B3AAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				E8DCA2582C9C6939002D4D4E /* XCRemoteSwiftPackageReference "quickpose-ios-sdk" */,
+			);
 			productRefGroup = E890EB702C874A7D00A8F2E3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -285,6 +523,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E890EB812C8755F600A8F2E3 /* Launch Screen.storyboard in Resources */,
+				E88AA2892C99716E003B3AAA /* GoogleService-Info.plist in Resources */,
 				E890EB7A2C874A7F00A8F2E3 /* Preview Assets.xcassets in Resources */,
 				E890EB772C874A7F00A8F2E3 /* Assets.xcassets in Resources */,
 			);
@@ -298,19 +537,58 @@
 			buildActionMask = 2147483647;
 			files = (
 				E890EB922C87864C00A8F2E3 /* FinalIntroView.swift in Sources */,
+				E8DCA2692C9C6B6F002D4D4E /* CameraManager.swift in Sources */,
+				E80DA1232CB1656100F2FE60 /* ChildProfileScreen.swift in Sources */,
+				E83777002C90224F00373528 /* LoginCardsView.swift in Sources */,
 				E83002BF2C87C81A000653C5 /* ChooseView.swift in Sources */,
+				E80E011A2C8D8A8800C138E7 /* BadgesView.swift in Sources */,
+				E828E9352C9CD7720082D1A1 /* Exercise.swift in Sources */,
+				E8C9E28B2C9975A3000921D8 /* User.swift in Sources */,
+				E8CBE9F22C8B6314003A9DF4 /* CircularProgressVeiw.swift in Sources */,
 				E890EB8E2C875A0600A8F2E3 /* IntroView+Handler.swift in Sources */,
+				E828E93B2C9CDA990082D1A1 /* QuestViewModel.swift in Sources */,
+				E80DA1262CB1BA7C00F2FE60 /* QuestTabView.swift in Sources */,
+				E8973F0F2CA065F80044B308 /* NextChallenge.swift in Sources */,
 				E890EB732C874A7D00A8F2E3 /* graduation_projectApp.swift in Sources */,
+				E828E92D2C9CB3CD0082D1A1 /* CameraView.swift in Sources */,
+				E8F2A7B52C9A06CA00D7C974 /* FieldType.swift in Sources */,
 				E83002C12C87CACC000653C5 /* AccountTypeChoice.swift in Sources */,
+				E8CBE9ED2C8B5023003A9DF4 /* MainView.swift in Sources */,
 				E890EB852C87581D00A8F2E3 /* IntroView.swift in Sources */,
+				E8973F0D2C9DDAA40044B308 /* IntroChallengeScreen.swift in Sources */,
+				E8CBE9F72C8B822F003A9DF4 /* StepIndicator.swift in Sources */,
+				E8F2A7B32C9A05C700D7C974 /* View+Extension.swift in Sources */,
+				E8F2A7AF2C9A059000D7C974 /* RemoveFocusOnTapModifier.swift in Sources */,
+				E8CBE9F42C8B6334003A9DF4 /* ProgressCard.swift in Sources */,
+				E8C9E28D2C997B9F000921D8 /* SignupScreen.swift in Sources */,
 				E890EB942C87968B00A8F2E3 /* RedButton.swift in Sources */,
+				E82D808A2CAC9CE700D19E7E /* ChildCard.swift in Sources */,
+				E83777022C90226200373528 /* LoginCard.swift in Sources */,
+				E859730E2CAB1E950042DAFD /* MyChildrenView.swift in Sources */,
+				E8C4523C2C9C43A500748DD2 /* ChallengeScreen.swift in Sources */,
+				E80E011C2C8D8BF800C138E7 /* BadgeCard.swift in Sources */,
+				E834B0702C8A18930007CCB7 /* GlobalTabBar.swift in Sources */,
+				E877505C2C9B53A800A75811 /* PlaceholderModifer.swift in Sources */,
+				E8CBE9E52C8B3310003A9DF4 /* ProfileView.swift in Sources */,
 				E890EB872C87583800A8F2E3 /* Slide.swift in Sources */,
-				E83002C72C87CC0F000653C5 /* LoginViewModel.swift in Sources */,
+				E8CBE9EB2C8B4CBC003A9DF4 /* TabBarViewTitle.swift in Sources */,
+				E83002C72C87CC0F000653C5 /* AuthViewModel.swift in Sources */,
+				E8DEC3E82C8E0CF800FF6AC1 /* ProfileBadgeDestination.swift in Sources */,
+				E82D80842CAC889100D19E7E /* CreateChildScreen.swift in Sources */,
 				E890EB8A2C8758C700A8F2E3 /* SlideView.swift in Sources */,
+				E82D80862CAC8A6B00D19E7E /* ChildImage.swift in Sources */,
+				E88AA2872C9970CF003B3AAA /* AppDelegate.swift in Sources */,
 				E834B0632C89FC0C0007CCB7 /* LoginView.swift in Sources */,
 				E890EB902C87620800A8F2E3 /* SlidesTracker.swift in Sources */,
 				E83002C32C87CAF2000653C5 /* AccountType.swift in Sources */,
+				E82D80882CAC96C300D19E7E /* FinishAddChild.swift in Sources */,
+				E8CBE9F02C8B54EB003A9DF4 /* ProgressMainView.swift in Sources */,
+				E80E01172C8CB95800C138E7 /* Badge.swift in Sources */,
+				E828E93E2C9CE04C0082D1A1 /* QuestScreen.swift in Sources */,
+				E8CBE9F92C8BAA4F003A9DF4 /* HomeView.swift in Sources */,
 				E834B0652C89FF8C0007CCB7 /* LoginTextField.swift in Sources */,
+				E8973F112CA06CD60044B308 /* FinishWeekScreen.swift in Sources */,
+				E8CBE9E92C8B39A4003A9DF4 /* LevelProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +630,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2YRQYMCA3U;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -415,6 +694,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2YRQYMCA3U;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -444,9 +724,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"graduation project/Preview Content\"";
-				DEVELOPMENT_TEAM = YX66ZU7AY8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "FitQuest needs camera in order to practice quest's day plan";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -458,7 +738,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mazen.graduation-project";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmed.graduation-project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -474,9 +754,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"graduation project/Preview Content\"";
-				DEVELOPMENT_TEAM = YX66ZU7AY8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "FitQuest needs camera in order to practice quest's day plan";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -488,7 +768,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mazen.graduation-project";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmed.graduation-project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -518,6 +798,73 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E88AA2842C99701D003B3AAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.2.0;
+			};
+		};
+		E8DCA2582C9C6939002D4D4E /* XCRemoteSwiftPackageReference "quickpose-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/quickpose/quickpose-ios-sdk.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E88AA28B2C9971FF003B3AAA /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E88AA2842C99701D003B3AAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		E88AA28D2C9974B1003B3AAA /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E88AA2842C99701D003B3AAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		E88AA28F2C9974B1003B3AAA /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E88AA2842C99701D003B3AAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		E88AA2912C9974B1003B3AAA /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E88AA2842C99701D003B3AAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		E88AA2932C9974B1003B3AAA /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E88AA2842C99701D003B3AAA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		E8DCA2592C9C6939002D4D4E /* QuickPoseCamera */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8DCA2582C9C6939002D4D4E /* XCRemoteSwiftPackageReference "quickpose-ios-sdk" */;
+			productName = QuickPoseCamera;
+		};
+		E8DCA25B2C9C6939002D4D4E /* QuickPoseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8DCA2582C9C6939002D4D4E /* XCRemoteSwiftPackageReference "quickpose-ios-sdk" */;
+			productName = QuickPoseCore;
+		};
+		E8DCA2632C9C6A79002D4D4E /* QuickPoseSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8DCA2582C9C6939002D4D4E /* XCRemoteSwiftPackageReference "quickpose-ios-sdk" */;
+			productName = QuickPoseSwiftUI;
+		};
+		E8DCA2652C9C6A8F002D4D4E /* QuickPoseMP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8DCA2582C9C6939002D4D4E /* XCRemoteSwiftPackageReference "quickpose-ios-sdk" */;
+			productName = QuickPoseMP;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E890EB672C874A7D00A8F2E3 /* Project object */;
 }

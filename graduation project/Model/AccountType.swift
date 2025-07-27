@@ -7,7 +7,8 @@
 
 import Foundation
 
-enum AccountType {
-    case child
-    case parent
+enum AccountType: String {
+    case child = "child"
+    case parent = "parent"
+    case unchosen = "unchosen"
 }

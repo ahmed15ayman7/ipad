@@ -9,9 +9,20 @@ import SwiftUI
 
 @main
 struct graduation_projectApp: App {
+
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @StateObject var authViewModel = AuthViewModel()
+
     var body: some Scene {
         WindowGroup {
-            IntroView()
+            if authViewModel.isSignedIn {
+                MainView()
+                    .environmentObject(authViewModel)
+            } else {
+                IntroView()
+                    .environmentObject(authViewModel)
+            }
+           
         }
     }
 }

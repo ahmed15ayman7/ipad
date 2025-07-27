@@ -9,6 +9,8 @@ import SwiftUI
 
 struct IntroView: View {
     @StateObject private var handler: Handler = .init()
+    @EnvironmentObject var authViewModel: AuthViewModel
+
     var body: some View {
         NavigationStack {
             VStack {
@@ -34,6 +36,7 @@ struct IntroView: View {
                             .navigationDestination(
                                 isPresented: $handler.navigateToNextView) {
                                     FinalIntroView()
+                                        .environmentObject(authViewModel)
                                 }
                         
                     }).padding(.bottom, 50)
